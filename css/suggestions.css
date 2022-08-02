@@ -1,0 +1,48 @@
+.user-card{
+    border-width: thin;
+    margin: 5px;
+    background-color: white;
+    border-radius: 30px;
+}
+.user-card-name{
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding: 5%;
+    padding-left: 10%;
+}
+.align-vertical-center{
+    position: relative;
+    top: 50%;
+    transform: translate(0,-50%);
+}
+.user-card-image{
+    position: relative;
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+}
+.hide-overflow{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.user-card-bio{
+    font-size: 1rem;
+    font-weight:500;
+}
+.user-card-btn{
+    padding: 2px;
+    font-size: 0.8rem;
+}
+.following-list, .suggestions-list{
+    height: 37vh;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.SuggestionsTitle, .FollowingTitle{
+    padding: 1rem;
+    border-bottom: 2px solid;
+    width: 100%;
+    margin-bottom: 5px;
+    border-color: rgba(0, 0, 0, 0.288);
+}

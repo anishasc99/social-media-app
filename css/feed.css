@@ -1,0 +1,43 @@
+.image{
+    height: 100%; 
+    width: 100%; 
+    padding: 0.5rem;
+}
+
+.cardstyle{
+    width: 100%;  
+    margin: auto;
+    padding: 5%;
+    border-radius: 10%;
+}
+
+.yourFeedTitle{
+    padding: 1rem;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.288);;
+}
+
+.info{
+    padding-left: 0.5rem;
+}
+
+#uName{
+    font-weight: bold;
+    font-size: 1.6rem;
+}
+.card-text{
+    font-size: 1.2rem;
+}
+.myFeed{
+    /* height: 90vh; */
+    overflow: scroll;
+    overflow-x: hidden;
+}
+.myFeed-Container{
+    border-left: 20px solid rgba(255, 255, 255, 0.575);
+    border-right: 20px solid rgba(255, 255, 255, 0.575);
+}
+.edit-post, .delete-post{
+    float: right;
+    font-size: 1.4rem;
+    margin: 5px;
+}

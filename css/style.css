@@ -1,0 +1,38 @@
+h1{
+    margin: auto;
+    text-align: center;
+    background-color: beige;
+    padding: 1.5rem;
+}
+
+.myFeed{
+    /*border: 2px solid;*/
+    height: 88vh;
+}
+.profileSection,.myConnections{
+    height: 100vh;
+}
+::-webkit-scrollbar {
+    width: 6px;
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+.myConnections{
+    background-color: beige;
+}
+body{
+    background-color: beige;
+}
+.app-heading{
+    font-weight:600;
+}
+.nav-button{
+    width: 100%;
+    font-size: 1.2rem;
+}
+button > * {
+    pointer-events: none;
+}

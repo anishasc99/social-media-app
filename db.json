@@ -1,0 +1,123 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "firstName": "M V",
+      "lastName": "Sanjana",
+      "age": 21,
+      "email": "sanjana@rabos.co.uk",
+      "password": "mv1536",
+      "bio": "Hey!",
+      "profilePic": "./images/dp4.jpg",
+      "following": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 2,
+      "firstName": "Anisha",
+      "lastName": "Chazhoor",
+      "age": 22,
+      "email": "anisha@natwest.co.uk",
+      "password": "ansc23",
+      "bio": "Hustle Life!!",
+      "profilePic": "./images/dp3.jpg",
+      "following": [
+        1,
+        3,
+        4
+      ]
+    },
+    {
+      "id": 3,
+      "firstName": "Ankita",
+      "lastName": "Vaish",
+      "age": 23,
+      "email": "ankita@gmail.co.uk",
+      "password": "ank123",
+      "bio": "Simplicity is the ultimate sophistication.",
+      "profilePic": "./images/dp2.jpg",
+      "following": [
+        2,
+        4
+      ]
+    },
+    {
+      "id": 4,
+      "firstName": "Pratham",
+      "lastName": "Agarwal",
+      "age": 43,
+      "email": "pratham@rabos.co.uk",
+      "password": "prarg345",
+      "bio": "High on life!!",
+      "profilePic": "./images/dp1.jpg",
+      "following": []
+    }
+  ],
+  "post": [
+    {
+      "id": 101,
+      "uId": 3,
+      "title": "Morning Chai",
+      "desc": "Chai time!! How refreshing!",
+      "timeStamp": 1627494149,
+      "imgURL": "./images/chai.jpg",
+      "likes": 5000
+    },
+    {
+      "id": 102,
+      "uId": 2,
+      "title": "Walk down the memory lane...",
+      "desc": "Much needed rewind!",
+      "timeStamp": 1627494149,
+      "imgURL": "./images/nostalgia.jpg",
+      "likes": 4000
+    },
+    {
+      "id": 103,
+      "uId": 3,
+      "title": "Walk with Nature!",
+      "desc": "Calm. Green.",
+      "timeStamp": 1627494149,
+      "imgURL": "./images/nature2.jpg",
+      "likes": 3500
+    },
+    {
+      "id": 104,
+      "uId": 4,
+      "title": "Feeling high!!!!",
+      "desc": "What you can't say owns u. What u hide controls you.",
+      "timeStamp": 1627494149,
+      "imgURL": "./images/high.jpg",
+      "likes": 1
+    },
+    {
+      "id": 105,
+      "uId": 1,
+      "title": "Java SpringBoot",
+      "desc": "Springing after springBoot session!!!",
+      "timeStamp": 1627494149,
+      "imgURL": "./images/books.jpg",
+      "likes": 3003
+    },
+    {
+      "id": 106,
+      "uId": 1,
+      "title": "sunrise",
+      "desc": "sunshine",
+      "timeStamp": 1627494149,
+      "imgURL": "./images/nature.jpg",
+      "likes": 0
+    },
+    {
+      "id": 107,
+      "uId": 1,
+      "title": "highlands",
+      "desc": "Mountains",
+      "timeStamp": 1627578670,
+      "imgURL": "./images/nature2.jpg",
+      "likes": 0
+    }
+  ]
+}
